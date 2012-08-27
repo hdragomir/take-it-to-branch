@@ -1,0 +1,21 @@
+{
+  "name": "Take It To Branch",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Easy way to take an interesting topic to branch.com",
+  "background": {
+    "scripts": [
+      "take-it-to-branch.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "branch-logo.png"
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*",
+    "*://branch.com/*"
+  ],
+  "web_accessible_resources": [
+    "bookmarklet.m.js"
+  ]
+}
